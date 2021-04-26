@@ -11,7 +11,7 @@ System.out.println("A  i="+i);
  }
 }
 class D extends C {
-public D(int i) { super(i); x += i; }
+public D(int i) { super(i); x = i; }
 }
 class t {
 public static void main(String argv[]) {
