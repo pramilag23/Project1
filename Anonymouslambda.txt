@@ -1,0 +1,15 @@
+package javaapplication264;
+
+interface Anonymous
+{
+void show();
+}
+class Lambdademo
+{
+        public static void main(String[] args)
+  {
+Anonymous obj=()-> System.out.println("Inside function");
+       
+  obj.show();
+   }
+}
